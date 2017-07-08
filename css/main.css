@@ -980,7 +980,7 @@ pre .javascript .function {
 .brand {
   position: relative;
   display: inline-block;
-/*padding: 0 40px;*/
+  padding: 4px 40px;
   color: #fff;
   background: #222;
   border-bottom: none;
@@ -997,11 +997,12 @@ pre .javascript .function {
 .site-title {
   display: inline-block;
   vertical-align: top;
-  line-height: 36px;
+/*line-height: 36px;*/
   font-size: 20px;
   font-weight: normal;
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-family: "幼圆";
+  font-family: "幼圆", 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: calc(30px + 6 * (100vw - 600px) / 400);
 }
 .site-subtitle {
   margin-top: 10px;
@@ -1678,7 +1679,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #5ec990;
+  background: #ff8622;
 }
 .links-of-blogroll {
   font-size: 13px;
